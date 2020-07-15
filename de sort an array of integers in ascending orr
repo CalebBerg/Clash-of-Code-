@@ -1,0 +1,16 @@
+/**
+ * Auto-generated code below aims at helping you parse
+ * the standard input according to the problem statement.
+ JavaScript
+ **/
+
+const N = parseInt(readline());
+var inputs = readline().split(' ');
+let res=[]
+for (let i = 0; i < N; i++) {
+    res.push(parseInt(inputs[i]));
+}
+
+// Write an answer using console.log()
+// To debug: console.error('Debug messages...');
+print(res.sort((a,b) => a-b).join( " "))
